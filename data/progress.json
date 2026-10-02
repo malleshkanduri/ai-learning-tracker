@@ -1,5 +1,596 @@
 {
   "version": 1,
-  "savedAt": null,
-  "state": null
+  "savedAt": "2026-10-02T14:42:52.422Z",
+  "state": {
+    "tasks": [
+      {
+        "id": "learn-01",
+        "date": "2026-09-28",
+        "desc": "Introduction to the World of Data and AI",
+        "status": "open",
+        "hours": 0,
+        "project": "pre",
+        "order": 0,
+        "learning": {
+          "module": "Preparatory",
+          "psTitle": "Machine Learning Essentials",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "strong",
+          "estimatedHours": 3
+        }
+      },
+      {
+        "id": "learn-02",
+        "date": "2026-09-28",
+        "desc": "Python Programming Fundamentals",
+        "status": "open",
+        "hours": 0,
+        "project": "pre",
+        "order": 1,
+        "learning": {
+          "module": "Preparatory",
+          "psTitle": "Machine Learning with Python",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "strong",
+          "estimatedHours": 3
+        }
+      },
+      {
+        "id": "learn-03",
+        "date": "2026-09-28",
+        "desc": "The Generative AI and Agentic AI Landscape",
+        "status": "open",
+        "hours": 0,
+        "project": "pre",
+        "order": 2,
+        "learning": {
+          "module": "Preparatory",
+          "psTitle": "LangChain Learning Path",
+          "url": "https://www.pluralsight.com/paths/langchain",
+          "match": "partial",
+          "estimatedHours": 2
+        }
+      },
+      {
+        "id": "learn-04",
+        "date": "2026-09-29",
+        "desc": "Python Programming With Generative AI",
+        "status": "open",
+        "hours": 0,
+        "project": "m1",
+        "order": 0,
+        "learning": {
+          "module": "Module 01 · Python for AI Solutions",
+          "psTitle": "Machine Learning with Python",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "partial",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-05",
+        "date": "2026-09-29",
+        "desc": "Data Manipulation and Exploratory Data Analysis",
+        "status": "open",
+        "hours": 0,
+        "project": "m1",
+        "order": 1,
+        "learning": {
+          "module": "Module 01 · Python for AI Solutions",
+          "psTitle": "Preparing Data for Machine Learning",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "strong",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-06",
+        "date": "2026-09-29",
+        "desc": "Linear Regression",
+        "status": "open",
+        "hours": 0,
+        "project": "m2",
+        "order": 2,
+        "learning": {
+          "module": "Module 02 · Predictive Modeling",
+          "psTitle": "Creating Machine Learning Models",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "strong",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-07",
+        "date": "2026-09-30",
+        "desc": "Decision Trees",
+        "status": "open",
+        "hours": 0,
+        "project": "m2",
+        "order": 0,
+        "learning": {
+          "module": "Module 02 · Predictive Modeling",
+          "psTitle": "Creating Machine Learning Models",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "strong",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-08",
+        "date": "2026-09-30",
+        "desc": "K-Means Clustering",
+        "status": "open",
+        "hours": 0,
+        "project": "m2",
+        "order": 1,
+        "learning": {
+          "module": "Module 02 · Predictive Modeling",
+          "psTitle": "Creating Machine Learning Models",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "partial",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-09",
+        "date": "2026-09-30",
+        "desc": "Ensemble Techniques",
+        "status": "open",
+        "hours": 0,
+        "project": "m2",
+        "order": 2,
+        "learning": {
+          "module": "Module 02 · Predictive Modeling",
+          "psTitle": "Creating Machine Learning Models",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "partial",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-10",
+        "date": "2026-10-01",
+        "desc": "Neural Networks",
+        "status": "open",
+        "hours": 0,
+        "project": "m2",
+        "order": 0,
+        "learning": {
+          "module": "Module 02 · Predictive Modeling",
+          "psTitle": "TensorFlow: Building and Training Neural Network Models",
+          "url": "https://www.pluralsight.com/courses/tensorflow-developer-build-train-neural-network-models",
+          "match": "strong",
+          "estimatedHours": 8
+        }
+      },
+      {
+        "id": "learn-11",
+        "date": "2026-10-01",
+        "desc": "Large Language Models and Prompt Engineering",
+        "status": "open",
+        "hours": 0,
+        "project": "m3",
+        "order": 1,
+        "learning": {
+          "module": "Module 03 · Generative AI for NLP",
+          "psTitle": "LangChain Learning Path",
+          "url": "https://www.pluralsight.com/paths/langchain",
+          "match": "strong",
+          "estimatedHours": 8
+        }
+      },
+      {
+        "id": "learn-12",
+        "date": "2026-10-01",
+        "desc": "Evaluating Generative AI Workflows",
+        "status": "open",
+        "hours": 0,
+        "project": "m3",
+        "order": 2,
+        "learning": {
+          "module": "Module 03 · Generative AI for NLP",
+          "psTitle": "Building RAG Applications with LangChain",
+          "url": "https://www.pluralsight.com/courses/building-rag-applications-langchain",
+          "match": "strong",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-13",
+        "date": "2026-10-02",
+        "desc": "Retrieval-Augmented Generation",
+        "status": "open",
+        "hours": 0,
+        "project": "m3",
+        "order": 0,
+        "learning": {
+          "module": "Module 03 · Generative AI for NLP",
+          "psTitle": "Building RAG Applications with LangChain",
+          "url": "https://www.pluralsight.com/courses/building-rag-applications-langchain",
+          "match": "exact",
+          "estimatedHours": 8
+        }
+      },
+      {
+        "id": "learn-14",
+        "date": "2026-10-02",
+        "desc": "Responsible AI",
+        "status": "open",
+        "hours": 0,
+        "project": "m3",
+        "order": 1,
+        "learning": {
+          "module": "Module 03 · Generative AI for NLP",
+          "psTitle": "Machine Learning Essentials / AI governance content",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "partial",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-15",
+        "date": "2026-10-02",
+        "desc": "Single-Agent Systems",
+        "status": "open",
+        "hours": 0,
+        "project": "m4",
+        "order": 2,
+        "learning": {
+          "module": "Module 04 · Agentic AI for Automation",
+          "psTitle": "LangChain Agents, Tools, and Planning",
+          "url": "https://www.pluralsight.com/paths/langchain",
+          "match": "strong",
+          "estimatedHours": 7
+        }
+      },
+      {
+        "id": "learn-16",
+        "date": "2026-10-03",
+        "desc": "Multi-Agent Systems",
+        "status": "open",
+        "hours": 0,
+        "project": "m4",
+        "order": 0,
+        "learning": {
+          "module": "Module 04 · Agentic AI for Automation",
+          "psTitle": "Agentic AI with LangGraph",
+          "url": "https://www.pluralsight.com/paths/langgraph",
+          "match": "exact",
+          "estimatedHours": 7
+        }
+      },
+      {
+        "id": "learn-17",
+        "date": "2026-10-03",
+        "desc": "Evaluating Agentic AI Systems",
+        "status": "open",
+        "hours": 0,
+        "project": "m4",
+        "order": 1,
+        "learning": {
+          "module": "Module 04 · Agentic AI for Automation",
+          "psTitle": "LangGraph + LangSmith evaluation",
+          "url": "https://www.pluralsight.com/paths/langgraph",
+          "match": "partial",
+          "estimatedHours": 8
+        }
+      },
+      {
+        "id": "learn-18",
+        "date": "2026-10-03",
+        "desc": "ML Model Deployment",
+        "status": "open",
+        "hours": 0,
+        "project": "m5",
+        "order": 2,
+        "learning": {
+          "module": "Module 05 · Deploying AI Solutions",
+          "psTitle": "Deploying Machine Learning Solutions",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "exact",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-19",
+        "date": "2026-10-04",
+        "desc": "Deploying GenAI Solutions",
+        "status": "open",
+        "hours": 0,
+        "project": "m5",
+        "order": 0,
+        "learning": {
+          "module": "Module 05 · Deploying AI Solutions",
+          "psTitle": "Deploying LangGraph Applications",
+          "url": "https://www.pluralsight.com/paths/langgraph",
+          "match": "strong",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-20",
+        "date": "2026-10-04",
+        "desc": "Model selection and prompt engineering using Claude",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 1,
+        "learning": {
+          "module": "Self-Paced · Claude AI Workflows",
+          "psTitle": "LangChain / prompt engineering content",
+          "url": "https://www.pluralsight.com/paths/langchain",
+          "match": "partial",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-21",
+        "date": "2026-10-04",
+        "desc": "Agentic workflow design and orchestration",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 2,
+        "learning": {
+          "module": "Self-Paced · Claude AI Workflows",
+          "psTitle": "LangGraph Learning Path",
+          "url": "https://www.pluralsight.com/paths/langgraph",
+          "match": "strong",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-22",
+        "date": "2026-10-05",
+        "desc": "Tool integration using Model Context Protocol",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 0,
+        "learning": {
+          "module": "Self-Paced · Claude AI Workflows",
+          "psTitle": "Model Context Protocol (MCP) Learning Path",
+          "url": "https://www.pluralsight.com/paths/model-context-protocol-mcp",
+          "match": "exact",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-23",
+        "date": "2026-10-05",
+        "desc": "Agentic systems with memory, tools, and orchestration",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 1,
+        "learning": {
+          "module": "Self-Paced · Claude AI Workflows",
+          "psTitle": "LangGraph + MCP Learning Paths",
+          "url": "https://www.pluralsight.com/paths/langgraph",
+          "match": "strong",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-24",
+        "date": "2026-10-05",
+        "desc": "Image Creation using GenAI",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 2,
+        "learning": {
+          "module": "Self-Paced · Multimodal GenAI",
+          "psTitle": "Generative AI content",
+          "url": "https://www.pluralsight.com/browse/ai",
+          "match": "partial",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-25",
+        "date": "2026-10-06",
+        "desc": "Speech Recognition using GenAI",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 0,
+        "learning": {
+          "module": "Self-Paced · Multimodal GenAI",
+          "psTitle": "Generative AI content",
+          "url": "https://www.pluralsight.com/browse/ai",
+          "match": "partial",
+          "estimatedHours": 4
+        }
+      },
+      {
+        "id": "learn-26",
+        "date": "2026-10-06",
+        "desc": "Overview of Computer Vision",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 1,
+        "learning": {
+          "module": "Self-Paced · Computer Vision",
+          "psTitle": "TensorFlow / computer vision content",
+          "url": "https://www.pluralsight.com/browse/ai",
+          "match": "partial",
+          "estimatedHours": 4
+        }
+      },
+      {
+        "id": "learn-27",
+        "date": "2026-10-06",
+        "desc": "Image Processing",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 2,
+        "learning": {
+          "module": "Self-Paced · Computer Vision",
+          "psTitle": "TensorFlow / computer vision content",
+          "url": "https://www.pluralsight.com/browse/ai",
+          "match": "partial",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-28",
+        "date": "2026-10-07",
+        "desc": "Convolutional Neural Networks",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 0,
+        "learning": {
+          "module": "Self-Paced · Computer Vision",
+          "psTitle": "TensorFlow Neural Networks",
+          "url": "https://www.pluralsight.com/courses/tensorflow-developer-build-train-neural-network-models",
+          "match": "strong",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-29",
+        "date": "2026-10-07",
+        "desc": "Probability Fundamentals & Distributions",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 1,
+        "learning": {
+          "module": "Self-Paced · Statistical Learning",
+          "psTitle": "Foundations of Statistics and Probability for ML",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "exact",
+          "estimatedHours": 7
+        }
+      },
+      {
+        "id": "learn-30",
+        "date": "2026-10-07",
+        "desc": "Sampling, Central Limit Theorem, Estimation & Hypothesis Testing",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 2,
+        "learning": {
+          "module": "Self-Paced · Statistical Learning",
+          "psTitle": "Foundations of Statistics and Probability for ML",
+          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "match": "strong",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-31",
+        "date": "2026-10-08",
+        "desc": "Recommendation Systems",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 0,
+        "learning": {
+          "module": "Self-Paced · Recommendation Systems",
+          "psTitle": "Recommendation Systems content",
+          "url": "https://www.pluralsight.com/search?q=recommendation%20systems",
+          "match": "partial",
+          "estimatedHours": 6
+        }
+      },
+      {
+        "id": "learn-32",
+        "date": "2026-10-08",
+        "desc": "Introduction to DB and SQL",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 1,
+        "learning": {
+          "module": "Self-Paced · SQL",
+          "psTitle": "Introduction to SQL",
+          "url": "https://www.pluralsight.com/courses/sql-introduction",
+          "match": "exact",
+          "estimatedHours": 5
+        }
+      },
+      {
+        "id": "learn-33",
+        "date": "2026-10-08",
+        "desc": "Filtering, Aggregation, Window Functions, Joins & Subqueries",
+        "status": "open",
+        "hours": 0,
+        "project": "self",
+        "order": 2,
+        "learning": {
+          "module": "Self-Paced · SQL",
+          "psTitle": "Introduction to SQL Learning Path",
+          "url": "https://www.pluralsight.com/paths/introduction-to-sql",
+          "match": "strong",
+          "estimatedHours": 6
+        }
+      }
+    ],
+    "keep": [],
+    "projects": [
+      {
+        "id": "pre",
+        "name": "Preparatory",
+        "color": "#657B9B",
+        "match": []
+      },
+      {
+        "id": "m1",
+        "name": "Python for AI",
+        "color": "#4E9694",
+        "match": []
+      },
+      {
+        "id": "m2",
+        "name": "Predictive ML",
+        "color": "#7D789C",
+        "match": []
+      },
+      {
+        "id": "m3",
+        "name": "GenAI & RAG",
+        "color": "#B58A52",
+        "match": []
+      },
+      {
+        "id": "m4",
+        "name": "Agentic AI",
+        "color": "#5A9A78",
+        "match": []
+      },
+      {
+        "id": "m5",
+        "name": "Deployment",
+        "color": "#B96870",
+        "match": []
+      },
+      {
+        "id": "self",
+        "name": "Self-paced",
+        "color": "#7E8998",
+        "match": []
+      }
+    ],
+    "times": {},
+    "timer": null,
+    "quick": {
+      "label": "",
+      "start": "",
+      "end": ""
+    },
+    "view": "todo",
+    "anchor": "2026-10-02",
+    "calAnchor": "2026-10-02",
+    "theme": "light",
+    "target": 8,
+    "filter": "all",
+    "pfilter": "all",
+    "search": ""
+  }
 }
