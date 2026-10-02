@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2026-10-02T14:44:00.166Z",
+  "savedAt": "2026-10-02T14:45:38.626Z",
   "state": {
     "tasks": [
       {
         "id": "learn-01",
         "date": "2026-09-28",
         "desc": "Introduction to the World of Data and AI",
-        "status": "open",
+        "status": "prog",
         "hours": 0,
         "project": "pre",
         "order": 0,
@@ -584,7 +584,7 @@
       "start": "",
       "end": ""
     },
-    "view": "todo",
+    "view": "prog",
     "anchor": "2026-10-02",
     "calAnchor": "2026-10-02",
     "theme": "light",
