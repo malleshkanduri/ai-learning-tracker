@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-03T23:57:41.649Z",
+  "savedAt": "2026-10-03T23:59:24.880Z",
   "state": {
     "tasks": [
       {
@@ -590,7 +590,7 @@
     "theme": "light",
     "target": 8,
     "filter": "all",
-    "pfilter": "pre",
+    "pfilter": "m1",
     "search": ""
   }
 }
