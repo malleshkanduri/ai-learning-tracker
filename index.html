@@ -2599,40 +2599,57 @@ async function exportExcel(){
    AI LEARNING CURRICULUM — UT Austin ↔ Pluralsight
    ══════════════════════════════════════════════════════════ */
 const LEARNING_CURRICULUM = [
-  ['pre','Preparatory','Introduction to the World of Data and AI','Machine Learning Essentials','https://www.pluralsight.com/paths/machine-learning-essentials','strong'],
-  ['pre','Preparatory','Python Programming Fundamentals','Machine Learning with Python','https://www.pluralsight.com/paths/machine-learning-essentials','strong'],
-  ['pre','Preparatory','The Generative AI and Agentic AI Landscape','LangChain Learning Path','https://www.pluralsight.com/paths/langchain','partial'],
-  ['m1','Module 01 · Python for AI Solutions','Python Programming With Generative AI','Machine Learning with Python','https://www.pluralsight.com/paths/machine-learning-essentials','partial'],
-  ['m1','Module 01 · Python for AI Solutions','Data Manipulation and Exploratory Data Analysis','Preparing Data for Machine Learning','https://www.pluralsight.com/paths/machine-learning-essentials','strong'],
-  ['m2','Module 02 · Predictive Modeling','Linear Regression','Creating Machine Learning Models','https://www.pluralsight.com/paths/machine-learning-essentials','strong'],
-  ['m2','Module 02 · Predictive Modeling','Decision Trees','Creating Machine Learning Models','https://www.pluralsight.com/paths/machine-learning-essentials','strong'],
-  ['m2','Module 02 · Predictive Modeling','K-Means Clustering','Creating Machine Learning Models','https://www.pluralsight.com/paths/machine-learning-essentials','partial'],
-  ['m2','Module 02 · Predictive Modeling','Ensemble Techniques','Creating Machine Learning Models','https://www.pluralsight.com/paths/machine-learning-essentials','partial'],
-  ['m2','Module 02 · Predictive Modeling','Neural Networks','TensorFlow: Building and Training Neural Network Models','https://www.pluralsight.com/courses/tensorflow-developer-build-train-neural-network-models','strong'],
-  ['m3','Module 03 · Generative AI for NLP','Large Language Models and Prompt Engineering','LangChain Learning Path','https://www.pluralsight.com/paths/langchain','strong'],
-  ['m3','Module 03 · Generative AI for NLP','Evaluating Generative AI Workflows','Building RAG Applications with LangChain','https://www.pluralsight.com/courses/building-rag-applications-langchain','strong'],
-  ['m3','Module 03 · Generative AI for NLP','Retrieval-Augmented Generation','Building RAG Applications with LangChain','https://www.pluralsight.com/courses/building-rag-applications-langchain','exact'],
-  ['m3','Module 03 · Generative AI for NLP','Responsible AI','Machine Learning Essentials / AI governance content','https://www.pluralsight.com/paths/machine-learning-essentials','partial'],
-  ['m4','Module 04 · Agentic AI for Automation','Single-Agent Systems','LangChain Agents, Tools, and Planning','https://www.pluralsight.com/paths/langchain','strong'],
-  ['m4','Module 04 · Agentic AI for Automation','Multi-Agent Systems','Agentic AI with LangGraph','https://www.pluralsight.com/paths/langgraph','exact'],
-  ['m4','Module 04 · Agentic AI for Automation','Evaluating Agentic AI Systems','LangGraph + LangSmith evaluation','https://www.pluralsight.com/paths/langgraph','partial'],
-  ['m5','Module 05 · Deploying AI Solutions','ML Model Deployment','Deploying Machine Learning Solutions','https://www.pluralsight.com/paths/machine-learning-essentials','exact'],
-  ['m5','Module 05 · Deploying AI Solutions','Deploying GenAI Solutions','Deploying LangGraph Applications','https://www.pluralsight.com/paths/langgraph','strong'],
-  ['self','Self-Paced · Claude AI Workflows','Model selection and prompt engineering using Claude','LangChain / prompt engineering content','https://www.pluralsight.com/paths/langchain','partial'],
-  ['self','Self-Paced · Claude AI Workflows','Agentic workflow design and orchestration','LangGraph Learning Path','https://www.pluralsight.com/paths/langgraph','strong'],
-  ['self','Self-Paced · Claude AI Workflows','Tool integration using Model Context Protocol','Model Context Protocol (MCP) Learning Path','https://www.pluralsight.com/paths/model-context-protocol-mcp','exact'],
-  ['self','Self-Paced · Claude AI Workflows','Agentic systems with memory, tools, and orchestration','LangGraph + MCP Learning Paths','https://www.pluralsight.com/paths/langgraph','strong'],
-  ['self','Self-Paced · Multimodal GenAI','Image Creation using GenAI','Generative AI content','https://www.pluralsight.com/browse/ai','partial'],
-  ['self','Self-Paced · Multimodal GenAI','Speech Recognition using GenAI','Generative AI content','https://www.pluralsight.com/browse/ai','partial'],
-  ['self','Self-Paced · Computer Vision','Overview of Computer Vision','TensorFlow / computer vision content','https://www.pluralsight.com/browse/ai','partial'],
-  ['self','Self-Paced · Computer Vision','Image Processing','TensorFlow / computer vision content','https://www.pluralsight.com/browse/ai','partial'],
-  ['self','Self-Paced · Computer Vision','Convolutional Neural Networks','TensorFlow Neural Networks','https://www.pluralsight.com/courses/tensorflow-developer-build-train-neural-network-models','strong'],
-  ['self','Self-Paced · Statistical Learning','Probability Fundamentals & Distributions','Foundations of Statistics and Probability for ML','https://www.pluralsight.com/paths/machine-learning-essentials','exact'],
-  ['self','Self-Paced · Statistical Learning','Sampling, Central Limit Theorem, Estimation & Hypothesis Testing','Foundations of Statistics and Probability for ML','https://www.pluralsight.com/paths/machine-learning-essentials','strong'],
-  ['self','Self-Paced · Recommendation Systems','Recommendation Systems','Recommendation Systems content','https://www.pluralsight.com/search?q=recommendation%20systems','partial'],
-  ['self','Self-Paced · SQL','Introduction to DB and SQL','Introduction to SQL','https://www.pluralsight.com/courses/sql-introduction','exact'],
-  ['self','Self-Paced · SQL','Filtering, Aggregation, Window Functions, Joins & Subqueries','Introduction to SQL Learning Path','https://www.pluralsight.com/paths/introduction-to-sql','strong']
+  ["pre","Preparatory","Introduction to the World of Data and AI","AI & Generative AI Explained","https://www.pluralsight.com/courses/ai-generative-ai-explained","strong"],
+  ["pre","Preparatory","Python Programming Fundamentals","Python 3 Fundamentals","https://www.pluralsight.com/courses/python-3-fundamentals","exact"],
+  ["pre","Preparatory","The Generative AI and Agentic AI Landscape","Generative AI Foundations","https://www.pluralsight.com/paths/generative-ai-foundations","strong"],
+  ["m1","Module 01 \u00b7 Python for AI Solutions","Python Programming With Generative AI","Developing Generative AI Applications with Python and Open AI","https://www.pluralsight.com/courses/generative-ai-developing-applications-python-openai","exact"],
+  ["m1","Module 01 \u00b7 Python for AI Solutions","Data Manipulation and Exploratory Data Analysis","Preparing Data for Machine Learning","https://www.pluralsight.com/courses/preparing-data-machine-learning","strong"],
+  ["m2","Module 02 \u00b7 Predictive Modeling","Linear Regression","Creating Machine Learning Models","https://www.pluralsight.com/courses/creating-machine-learning-models","exact"],
+  ["m2","Module 02 \u00b7 Predictive Modeling","Decision Trees","Introduction to Decision Trees","https://www.pluralsight.com/courses/decision-trees-introduction","exact"],
+  ["m2","Module 02 \u00b7 Predictive Modeling","K-Means Clustering","Creating Machine Learning Models","https://www.pluralsight.com/courses/creating-machine-learning-models","exact"],
+  ["m2","Module 02 \u00b7 Predictive Modeling","Ensemble Techniques","Tree-Based Machine Learning","https://www.pluralsight.com/paths/tree-based-machine-learning","exact"],
+  ["m2","Module 02 \u00b7 Predictive Modeling","Neural Networks","TensorFlow: Building and Training Neural Network Models","https://www.pluralsight.com/courses/tensorflow-developer-build-train-neural-network-models","strong"],
+  ["m3","Module 03 \u00b7 Generative AI for NLP","Large Language Models and Prompt Engineering","Generative AI for Developers","https://www.pluralsight.com/paths/generative-ai-for-developers","strong"],
+  ["m3","Module 03 \u00b7 Generative AI for NLP","Evaluating Generative AI Workflows","Generative AI: Engineering and Architecture","https://www.pluralsight.com/paths/generative-ai-engineering-and-architecture","strong"],
+  ["m3","Module 03 \u00b7 Generative AI for NLP","Retrieval-Augmented Generation","Building RAG Applications with LangChain","https://www.pluralsight.com/courses/building-rag-applications-langchain","exact"],
+  ["m3","Module 03 \u00b7 Generative AI for NLP","Responsible AI","Responsible Generative AI: Safety and Compliance","https://www.pluralsight.com/courses/responsible-generative-ai-safety-compliance","exact"],
+  ["m4","Module 04 \u00b7 Agentic AI for Automation","Single-Agent Systems","Agents, Tools, and Planning Foundations with LangChain","https://www.pluralsight.com/courses/agents-tools-planning-foundations-langchain","exact"],
+  ["m4","Module 04 \u00b7 Agentic AI for Automation","Multi-Agent Systems","Agentic AI with LangGraph","https://www.pluralsight.com/courses/agentic-ai-langgraph","exact"],
+  ["m4","Module 04 \u00b7 Agentic AI for Automation","Evaluating Agentic AI Systems","Generative AI: Engineering and Architecture","https://www.pluralsight.com/paths/generative-ai-engineering-and-architecture","strong"],
+  ["m5","Module 05 \u00b7 Deploying AI Solutions","ML Model Deployment","Deploying Machine Learning Solutions","https://www.pluralsight.com/courses/deploying-machine-learning-solutions","exact"],
+  ["m5","Module 05 \u00b7 Deploying AI Solutions","Deploying GenAI Solutions","Generative AI Integration for Developers","https://www.pluralsight.com/paths/generative-ai-integration-for-developers","strong"],
+  ["self","Self-Paced \u00b7 Claude AI Workflows","Model selection and prompt engineering using Claude","Prompt Engineering for Developers with Claude 3","https://www.pluralsight.com/courses/prompt-engineering-developers-claude-3","exact"],
+  ["self","Self-Paced \u00b7 Claude AI Workflows","Agentic workflow design and orchestration","Automating Workflows with Claude Code","https://www.pluralsight.com/courses/automating-workflows-claude-code","strong"],
+  ["self","Self-Paced \u00b7 Claude AI Workflows","Tool integration using Model Context Protocol","Model Context Protocol (MCP)","https://www.pluralsight.com/paths/model-context-protocol-mcp","exact"],
+  ["self","Self-Paced \u00b7 Claude AI Workflows","Agentic systems with memory, tools, and orchestration","Claude Code","https://www.pluralsight.com/paths/claude-code","strong"],
+  ["self","Self-Paced \u00b7 Multimodal GenAI","Image Creation using GenAI","Generative AI for Image Creation","https://www.pluralsight.com/courses/generative-ai-image-creation","exact"],
+  ["self","Self-Paced \u00b7 Multimodal GenAI","Speech Recognition using GenAI","Build a Speech Recognition Model","https://www.pluralsight.com/courses/build-speech-recognition-model","exact"],
+  ["self","Self-Paced \u00b7 Computer Vision","Overview of Computer Vision","Computer Vision for Developers","https://www.pluralsight.com/paths/computer-vision-for-developers","strong"],
+  ["self","Self-Paced \u00b7 Computer Vision","Image Processing","Computer Vision for Developers","https://www.pluralsight.com/paths/computer-vision-for-developers","exact"],
+  ["self","Self-Paced \u00b7 Computer Vision","Convolutional Neural Networks","Convolutional Neural Networks (CNNs)","https://www.pluralsight.com/courses/convolutional-neural-networks-cnns","exact"],
+  ["self","Self-Paced \u00b7 Statistical Learning","Probability Fundamentals & Distributions","Foundations of Statistics and Probability for Machine Learning","https://www.pluralsight.com/courses/foundations-statistics-probability-machine-learning","exact"],
+  ["self","Self-Paced \u00b7 Statistical Learning","Sampling, Central Limit Theorem, Estimation & Hypothesis Testing","Foundations of Statistics and Probability for Machine Learning","https://www.pluralsight.com/courses/foundations-statistics-probability-machine-learning","strong"],
+  ["self","Self-Paced \u00b7 Recommendation Systems","Recommendation Systems","Understanding Algorithms for Recommendation Systems","https://www.pluralsight.com/courses/algorithms-recommendation-systems","exact"],
+  ["self","Self-Paced \u00b7 SQL","Introduction to DB and SQL","Introduction to SQL","https://www.pluralsight.com/courses/sql-introduction","exact"],
+  ["self","Self-Paced \u00b7 SQL","Filtering, Aggregation, Window Functions, Joins & Subqueries","Introduction to SQL Learning Path","https://www.pluralsight.com/paths/introduction-to-sql","strong"]
 ].map((x,i)=>({id:'learn-'+String(i+1).padStart(2,'0'),moduleId:x[0],module:x[1],topic:x[2],psTitle:x[3],url:x[4],match:x[5]}));
+
+// Mapping audit v2: refresh curriculum metadata without resetting user progress/status.
+function refreshLearningCurriculumMappings(){
+  const byId=new Map(LEARNING_CURRICULUM.map(c=>[c.id,c]));
+  state.tasks.forEach(t=>{
+    const c=byId.get(t.id);
+    if(!c)return;
+    t.desc=c.topic;
+    t.project=c.moduleId;
+    t.learning=t.learning||{};
+    t.learning.module=c.module;
+    t.learning.psTitle=c.psTitle;
+    t.learning.url=c.url;
+    t.learning.match=c.match;
+  });
+}
+
 
 function seedLearningCurriculum(){
   if(localStorage.getItem('ai-learning-tracker.seeded.v1')) return;
@@ -2711,7 +2728,7 @@ render=function(){
   if(['todo','prog','done'].includes(state.view)){
     document.documentElement.setAttribute('data-theme',state.theme); $('#themeBtn').innerHTML=state.theme==='light'?I.moon:I.sun;
     [...$('#viewSeg').children].forEach(b=>b.classList.toggle('on',b.dataset.view===state.view));
-    $('#periodLabel').innerHTML=`AI Learning Tracker<small>10 hours/week · beginner plan</small>`;
+    $('#periodLabel').innerHTML=`AI Learning Tracker<small>10 hours/week · beginner plan · mappings audited Oct 2026</small>`;
     renderToolbar(); renderLearningBoard(state.view); renderSummary(); return;
   }
   state.view='todo'; render();
@@ -2746,7 +2763,7 @@ $('#prev').style.display='none'; $('#next').style.display='none'; $('#todayBtn')
 // Restore a JSON backup exported from this application.
 $('#fileInput').addEventListener('change', async e=>{
   const f=e.target.files&&e.target.files[0]; if(!f)return;
-  try{const data=JSON.parse(await f.text()); const incoming=data.state||data; Object.assign(state,incoming); normalise(); ensureLearningEstimates(); save(); render(); toast('Progress restored');}
+  try{const data=JSON.parse(await f.text()); const incoming=data.state||data; Object.assign(state,incoming); normalise(); refreshLearningCurriculumMappings(); ensureLearningEstimates(); save(); render(); toast('Progress restored');}
   catch(_){toast('Could not restore that backup');}
   e.target.value='';
 });
@@ -2757,9 +2774,13 @@ $('#fileInput').addEventListener('change', async e=>{
 async function boot(){
   load();
   seedLearningCurriculum();
+  refreshLearningCurriculumMappings();
   const remote=await loadFromGitHub();
   if(remote) normalise();
+  refreshLearningCurriculumMappings();
   ensureLearningEstimates();
+  // Persist refreshed course titles/links while retaining completion state.
+  try{localStorage.setItem(KEY,JSON.stringify(state));}catch(_){}
   render();
   setAutosaveText(remote?'Loaded from GitHub':(githubConfig().owner?'Saved locally · GitHub token needed':'Saved locally'));
   setTimeout(()=>{ document.querySelectorAll('.desc').forEach(autosize); },0);
