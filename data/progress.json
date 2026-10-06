@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-04T00:06:51.367Z",
+  "savedAt": "2026-10-06T01:03:11.579Z",
   "state": {
     "tasks": [
       {
@@ -13,8 +13,8 @@
         "order": 0,
         "learning": {
           "module": "Preparatory",
-          "psTitle": "Machine Learning Essentials",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "psTitle": "AI & Generative AI Explained",
+          "url": "https://www.pluralsight.com/courses/ai-generative-ai-explained",
           "match": "strong",
           "estimatedHours": 3
         }
@@ -23,15 +23,15 @@
         "id": "learn-02",
         "date": "2026-09-28",
         "desc": "Python Programming Fundamentals",
-        "status": "open",
+        "status": "prog",
         "hours": 0,
         "project": "pre",
         "order": 1,
         "learning": {
           "module": "Preparatory",
-          "psTitle": "Machine Learning with Python",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "strong",
+          "psTitle": "Python 3 Fundamentals",
+          "url": "https://www.pluralsight.com/courses/python-3-fundamentals",
+          "match": "exact",
           "estimatedHours": 3
         }
       },
@@ -45,9 +45,9 @@
         "order": 2,
         "learning": {
           "module": "Preparatory",
-          "psTitle": "LangChain Learning Path",
-          "url": "https://www.pluralsight.com/paths/langchain",
-          "match": "partial",
+          "psTitle": "Generative AI Foundations",
+          "url": "https://www.pluralsight.com/paths/generative-ai-foundations",
+          "match": "strong",
           "estimatedHours": 2
         }
       },
@@ -55,15 +55,15 @@
         "id": "learn-04",
         "date": "2026-09-29",
         "desc": "Python Programming With Generative AI",
-        "status": "open",
+        "status": "prog",
         "hours": 0,
         "project": "m1",
         "order": 0,
         "learning": {
           "module": "Module 01 · Python for AI Solutions",
-          "psTitle": "Machine Learning with Python",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "partial",
+          "psTitle": "Developing Generative AI Applications with Python and Open AI",
+          "url": "https://www.pluralsight.com/courses/generative-ai-developing-applications-python-openai",
+          "match": "exact",
           "estimatedHours": 6
         }
       },
@@ -78,7 +78,7 @@
         "learning": {
           "module": "Module 01 · Python for AI Solutions",
           "psTitle": "Preparing Data for Machine Learning",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "url": "https://www.pluralsight.com/courses/preparing-data-machine-learning",
           "match": "strong",
           "estimatedHours": 6
         }
@@ -94,8 +94,8 @@
         "learning": {
           "module": "Module 02 · Predictive Modeling",
           "psTitle": "Creating Machine Learning Models",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "strong",
+          "url": "https://www.pluralsight.com/courses/creating-machine-learning-models",
+          "match": "exact",
           "estimatedHours": 6
         }
       },
@@ -109,9 +109,9 @@
         "order": 0,
         "learning": {
           "module": "Module 02 · Predictive Modeling",
-          "psTitle": "Creating Machine Learning Models",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "strong",
+          "psTitle": "Introduction to Decision Trees",
+          "url": "https://www.pluralsight.com/courses/decision-trees-introduction",
+          "match": "exact",
           "estimatedHours": 5
         }
       },
@@ -126,8 +126,8 @@
         "learning": {
           "module": "Module 02 · Predictive Modeling",
           "psTitle": "Creating Machine Learning Models",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "partial",
+          "url": "https://www.pluralsight.com/courses/creating-machine-learning-models",
+          "match": "exact",
           "estimatedHours": 5
         }
       },
@@ -141,9 +141,9 @@
         "order": 2,
         "learning": {
           "module": "Module 02 · Predictive Modeling",
-          "psTitle": "Creating Machine Learning Models",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "partial",
+          "psTitle": "Tree-Based Machine Learning",
+          "url": "https://www.pluralsight.com/paths/tree-based-machine-learning",
+          "match": "exact",
           "estimatedHours": 6
         }
       },
@@ -173,8 +173,8 @@
         "order": 1,
         "learning": {
           "module": "Module 03 · Generative AI for NLP",
-          "psTitle": "LangChain Learning Path",
-          "url": "https://www.pluralsight.com/paths/langchain",
+          "psTitle": "Generative AI for Developers",
+          "url": "https://www.pluralsight.com/paths/generative-ai-for-developers",
           "match": "strong",
           "estimatedHours": 8
         }
@@ -189,8 +189,8 @@
         "order": 2,
         "learning": {
           "module": "Module 03 · Generative AI for NLP",
-          "psTitle": "Building RAG Applications with LangChain",
-          "url": "https://www.pluralsight.com/courses/building-rag-applications-langchain",
+          "psTitle": "Generative AI: Engineering and Architecture",
+          "url": "https://www.pluralsight.com/paths/generative-ai-engineering-and-architecture",
           "match": "strong",
           "estimatedHours": 6
         }
@@ -221,9 +221,9 @@
         "order": 1,
         "learning": {
           "module": "Module 03 · Generative AI for NLP",
-          "psTitle": "Machine Learning Essentials / AI governance content",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
-          "match": "partial",
+          "psTitle": "Responsible Generative AI: Safety and Compliance",
+          "url": "https://www.pluralsight.com/courses/responsible-generative-ai-safety-compliance",
+          "match": "exact",
           "estimatedHours": 6
         }
       },
@@ -237,9 +237,9 @@
         "order": 2,
         "learning": {
           "module": "Module 04 · Agentic AI for Automation",
-          "psTitle": "LangChain Agents, Tools, and Planning",
-          "url": "https://www.pluralsight.com/paths/langchain",
-          "match": "strong",
+          "psTitle": "Agents, Tools, and Planning Foundations with LangChain",
+          "url": "https://www.pluralsight.com/courses/agents-tools-planning-foundations-langchain",
+          "match": "exact",
           "estimatedHours": 7
         }
       },
@@ -254,7 +254,7 @@
         "learning": {
           "module": "Module 04 · Agentic AI for Automation",
           "psTitle": "Agentic AI with LangGraph",
-          "url": "https://www.pluralsight.com/paths/langgraph",
+          "url": "https://www.pluralsight.com/courses/agentic-ai-langgraph",
           "match": "exact",
           "estimatedHours": 7
         }
@@ -269,9 +269,9 @@
         "order": 1,
         "learning": {
           "module": "Module 04 · Agentic AI for Automation",
-          "psTitle": "LangGraph + LangSmith evaluation",
-          "url": "https://www.pluralsight.com/paths/langgraph",
-          "match": "partial",
+          "psTitle": "Generative AI: Engineering and Architecture",
+          "url": "https://www.pluralsight.com/paths/generative-ai-engineering-and-architecture",
+          "match": "strong",
           "estimatedHours": 8
         }
       },
@@ -286,7 +286,7 @@
         "learning": {
           "module": "Module 05 · Deploying AI Solutions",
           "psTitle": "Deploying Machine Learning Solutions",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "url": "https://www.pluralsight.com/courses/deploying-machine-learning-solutions",
           "match": "exact",
           "estimatedHours": 6
         }
@@ -301,8 +301,8 @@
         "order": 0,
         "learning": {
           "module": "Module 05 · Deploying AI Solutions",
-          "psTitle": "Deploying LangGraph Applications",
-          "url": "https://www.pluralsight.com/paths/langgraph",
+          "psTitle": "Generative AI Integration for Developers",
+          "url": "https://www.pluralsight.com/paths/generative-ai-integration-for-developers",
           "match": "strong",
           "estimatedHours": 6
         }
@@ -317,9 +317,9 @@
         "order": 1,
         "learning": {
           "module": "Self-Paced · Claude AI Workflows",
-          "psTitle": "LangChain / prompt engineering content",
-          "url": "https://www.pluralsight.com/paths/langchain",
-          "match": "partial",
+          "psTitle": "Prompt Engineering for Developers with Claude 3",
+          "url": "https://www.pluralsight.com/courses/prompt-engineering-developers-claude-3",
+          "match": "exact",
           "estimatedHours": 5
         }
       },
@@ -333,8 +333,8 @@
         "order": 2,
         "learning": {
           "module": "Self-Paced · Claude AI Workflows",
-          "psTitle": "LangGraph Learning Path",
-          "url": "https://www.pluralsight.com/paths/langgraph",
+          "psTitle": "Automating Workflows with Claude Code",
+          "url": "https://www.pluralsight.com/courses/automating-workflows-claude-code",
           "match": "strong",
           "estimatedHours": 5
         }
@@ -349,7 +349,7 @@
         "order": 0,
         "learning": {
           "module": "Self-Paced · Claude AI Workflows",
-          "psTitle": "Model Context Protocol (MCP) Learning Path",
+          "psTitle": "Model Context Protocol (MCP)",
           "url": "https://www.pluralsight.com/paths/model-context-protocol-mcp",
           "match": "exact",
           "estimatedHours": 6
@@ -365,8 +365,8 @@
         "order": 1,
         "learning": {
           "module": "Self-Paced · Claude AI Workflows",
-          "psTitle": "LangGraph + MCP Learning Paths",
-          "url": "https://www.pluralsight.com/paths/langgraph",
+          "psTitle": "Claude Code",
+          "url": "https://www.pluralsight.com/paths/claude-code",
           "match": "strong",
           "estimatedHours": 6
         }
@@ -381,9 +381,9 @@
         "order": 2,
         "learning": {
           "module": "Self-Paced · Multimodal GenAI",
-          "psTitle": "Generative AI content",
-          "url": "https://www.pluralsight.com/browse/ai",
-          "match": "partial",
+          "psTitle": "Generative AI for Image Creation",
+          "url": "https://www.pluralsight.com/courses/generative-ai-image-creation",
+          "match": "exact",
           "estimatedHours": 5
         }
       },
@@ -397,9 +397,9 @@
         "order": 0,
         "learning": {
           "module": "Self-Paced · Multimodal GenAI",
-          "psTitle": "Generative AI content",
-          "url": "https://www.pluralsight.com/browse/ai",
-          "match": "partial",
+          "psTitle": "Build a Speech Recognition Model",
+          "url": "https://www.pluralsight.com/courses/build-speech-recognition-model",
+          "match": "exact",
           "estimatedHours": 4
         }
       },
@@ -413,9 +413,9 @@
         "order": 1,
         "learning": {
           "module": "Self-Paced · Computer Vision",
-          "psTitle": "TensorFlow / computer vision content",
-          "url": "https://www.pluralsight.com/browse/ai",
-          "match": "partial",
+          "psTitle": "Computer Vision for Developers",
+          "url": "https://www.pluralsight.com/paths/computer-vision-for-developers",
+          "match": "strong",
           "estimatedHours": 4
         }
       },
@@ -429,9 +429,9 @@
         "order": 2,
         "learning": {
           "module": "Self-Paced · Computer Vision",
-          "psTitle": "TensorFlow / computer vision content",
-          "url": "https://www.pluralsight.com/browse/ai",
-          "match": "partial",
+          "psTitle": "Computer Vision for Developers",
+          "url": "https://www.pluralsight.com/paths/computer-vision-for-developers",
+          "match": "exact",
           "estimatedHours": 5
         }
       },
@@ -445,9 +445,9 @@
         "order": 0,
         "learning": {
           "module": "Self-Paced · Computer Vision",
-          "psTitle": "TensorFlow Neural Networks",
-          "url": "https://www.pluralsight.com/courses/tensorflow-developer-build-train-neural-network-models",
-          "match": "strong",
+          "psTitle": "Convolutional Neural Networks (CNNs)",
+          "url": "https://www.pluralsight.com/courses/convolutional-neural-networks-cnns",
+          "match": "exact",
           "estimatedHours": 5
         }
       },
@@ -461,8 +461,8 @@
         "order": 1,
         "learning": {
           "module": "Self-Paced · Statistical Learning",
-          "psTitle": "Foundations of Statistics and Probability for ML",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "psTitle": "Foundations of Statistics and Probability for Machine Learning",
+          "url": "https://www.pluralsight.com/courses/foundations-statistics-probability-machine-learning",
           "match": "exact",
           "estimatedHours": 7
         }
@@ -477,8 +477,8 @@
         "order": 2,
         "learning": {
           "module": "Self-Paced · Statistical Learning",
-          "psTitle": "Foundations of Statistics and Probability for ML",
-          "url": "https://www.pluralsight.com/paths/machine-learning-essentials",
+          "psTitle": "Foundations of Statistics and Probability for Machine Learning",
+          "url": "https://www.pluralsight.com/courses/foundations-statistics-probability-machine-learning",
           "match": "strong",
           "estimatedHours": 5
         }
@@ -493,9 +493,9 @@
         "order": 0,
         "learning": {
           "module": "Self-Paced · Recommendation Systems",
-          "psTitle": "Recommendation Systems content",
-          "url": "https://www.pluralsight.com/search?q=recommendation%20systems",
-          "match": "partial",
+          "psTitle": "Understanding Algorithms for Recommendation Systems",
+          "url": "https://www.pluralsight.com/courses/algorithms-recommendation-systems",
+          "match": "exact",
           "estimatedHours": 6
         }
       },
@@ -590,7 +590,7 @@
     "theme": "light",
     "target": 8,
     "filter": "all",
-    "pfilter": "pre",
+    "pfilter": "m1",
     "search": ""
   }
 }
