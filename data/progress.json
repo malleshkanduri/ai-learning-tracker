@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-06T01:04:15.220Z",
+  "savedAt": "2026-10-06T01:46:08.773Z",
   "state": {
     "tasks": [
       {
@@ -584,13 +584,13 @@
       "start": "",
       "end": ""
     },
-    "view": "prog",
+    "view": "todo",
     "anchor": "2026-10-02",
     "calAnchor": "2026-10-02",
     "theme": "light",
     "target": 8,
     "filter": "all",
-    "pfilter": "pre",
+    "pfilter": "m1",
     "search": ""
   }
 }
