@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-06T01:03:11.579Z",
+  "savedAt": "2026-10-06T01:04:15.220Z",
   "state": {
     "tasks": [
       {
@@ -23,7 +23,7 @@
         "id": "learn-02",
         "date": "2026-09-28",
         "desc": "Python Programming Fundamentals",
-        "status": "prog",
+        "status": "open",
         "hours": 0,
         "project": "pre",
         "order": 1,
@@ -55,7 +55,7 @@
         "id": "learn-04",
         "date": "2026-09-29",
         "desc": "Python Programming With Generative AI",
-        "status": "prog",
+        "status": "open",
         "hours": 0,
         "project": "m1",
         "order": 0,
@@ -584,13 +584,13 @@
       "start": "",
       "end": ""
     },
-    "view": "todo",
+    "view": "prog",
     "anchor": "2026-10-02",
     "calAnchor": "2026-10-02",
     "theme": "light",
     "target": 8,
     "filter": "all",
-    "pfilter": "m1",
+    "pfilter": "pre",
     "search": ""
   }
 }
